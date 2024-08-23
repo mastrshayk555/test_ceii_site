@@ -13982,7 +13982,7 @@ fieldset:disabled .btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('../images/WD_Farms_LOGO_horizontal.png');
+  background-image: url('./images/WD_Farms_LOGO_horizontal.png');
   background-size: contain;
   background-repeat: no-repeat; 
   background-position: center; 

@@ -81,7 +81,7 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #F8F0E8;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-emphasis-color: #000;
   --bs-emphasis-color-rgb: 0, 0, 0;
@@ -769,6 +769,10 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .img-thumbnail {
@@ -14074,3 +14078,37 @@ fieldset:disabled .btn {
   }
 }
 
+.supporter-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px; 
+  width: 275px; 
+  padding: 10px; 
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.supporter-logo {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.custom-line {
+  width: calc(100% - 400px); /* Subtract 200px from each side */
+  border: 0;
+  border-top: 1px solid #000; /* Adjust color as needed */
+  margin: 0 auto; /* Center the line */
+  padding-top: 10px; /* Adjust as needed */
+  padding-bottom: 10px; /* Adjust as needed */
+}
+
+.ceii-logo {
+  max-height: 100px;
+  max-width: 150px;
+  height: auto;
+  width: auto;
+}

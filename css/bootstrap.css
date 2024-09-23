@@ -14095,6 +14095,7 @@ fieldset:disabled .btn {
   height: auto;
   width: auto;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  background-color: #ffffff; /* Add your desired background color here */
 }
 
 .custom-line {

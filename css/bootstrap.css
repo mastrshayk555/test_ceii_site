@@ -14113,3 +14113,23 @@ fieldset:disabled .btn {
   height: auto;
   width: auto;
 }
+
+.filler-photo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1000px; 
+  width: 3000px; 
+  padding: 10px; 
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.filler-photo {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  background-color: #ffffff; /* Add your desired background color here */
+}

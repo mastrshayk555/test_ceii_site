@@ -14165,3 +14165,9 @@ fieldset:disabled .btn {
   justify-content: center; /* Horizontally center the controls */
   font-weight: bold;
 }
+
+.letter {
+  background: url('../images/kiwihug-qv05FvdE26k-unsplash.jpg'); /* Replace with the path to your image */
+  background-size: cover; /* This will make sure the image covers the whole div */
+  padding: 20px; /* Add some space around the text */
+}

@@ -8,14 +8,12 @@ var images = [
     'images/carousel/IMG_6781_20240929_122424.jpg',
     'images/carousel/IMG_6742_20240929_121238.jpg',
     'images/carousel/IMG_0802_20240929_123828.jpg',
-    'images/carousel/FallSetting.jpg',
     'images/carousel/IMG_7624.jpg',
     'images/carousel/IMG_0383.jpg',
     'images/carousel/IMG_0210.jpg',
     'images/carousel/IMG_3137_20240929_114812.jpg',
     'images/carousel/Farm_Vegs_Dave.jpg',
     'images/carousel/IMG_1542_20240929_093126.jpg',
-    'images/carousel/IMG_3383_20241003_064959.jpg',
     'images/carousel/Farm_hands_vegs.jpg',
     'images/carousel/IMG_2805_20241003_065156.jpg',
     'images/carousel/IMG_8080_20240929_115318.jpg',
@@ -27,7 +25,11 @@ var images = [
     'images/carousel/sprouts.jpg',
     'images/carousel/IMG_6681_20240929_121238.jpg',
     'images/carousel/IMG_1863_20240929_093517.jpg',
-    'images/carousel/IMG_1036_20240929_120444.jpg'
+    'images/carousel/IMG_1036_20240929_120444.jpg',
+    'images/carousel/MLK_Nutrition_Garden_cropped.jpg',
+    'images/carousel/delicious_salad.jpg',
+    'images/carousel/kids_n_food.jpg',
+    'images/carousel/kids_n_scarecrow.jpg',
 ];
 console.log('Carousel script is running');
 var carouselInner = document.querySelector('.carousel-inner');
